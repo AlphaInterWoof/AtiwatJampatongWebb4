@@ -1,0 +1,152 @@
+#os_banner {
+
+    position: absolute;
+
+}
+
+.headerTitle {
+
+    position: absolute;
+    left: 280px;
+
+}
+
+nav {
+
+    position: fixed;
+    top: 150px;
+    z-index: 10;
+
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 60px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+nav li {
+    background-color: gray;
+    line-height: 60px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+nav > ul > li  {
+    padding: 0px 10px;
+    overflow: hidden;
+    color: gray;
+    flex:1 1 auto;
+}
+
+nav > ul > li> a {
+    display: block;
+    height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+	
+}
+
+.show {
+    overflow: visible;
+}
+
+.index_text{
+
+    position: relative;
+    top: 300px;
+    font-size: large;
+
+}
+
+.androidText {
+
+    position: relative;
+    top: 225px;
+    font-size: large;
+    color: limegreen;
+
+}
+
+.iOSText {
+
+        position: relative;
+        top: 225px;
+        font-size: large;
+        color: silver;
+
+}
+
+.index {
+
+    background-image: url(../image/windowsXP.jpg);
+
+}
+
+.android {
+
+    background-image: url(../image/Android.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.iOS {
+
+    background-image: url(../image/iOS.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.linux {
+
+    background-image: url(../image/linux.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.mac {
+
+    background-image: url(../image/mac.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.windows {
+
+    background-image: url(../image/7c2f345bdfcadb8a3faf483ebaa2e9aea712bbdb.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#footer {
+
+    position: fixed;
+    bottom: 1px;
+
+}
